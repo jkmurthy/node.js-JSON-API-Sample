@@ -10,8 +10,7 @@ db = new Db('userdb', server, {safe: true});
 db.open(function(err, db) {
     if(!err) {
         console.log("Connected to 'users' database");
-        populateDB();
-
+       
         db.collection('users', {safe:true}, function(err, collection) {
             if (err) {
                 console.log("Users");
