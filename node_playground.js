@@ -16,6 +16,12 @@ app.get('/users', users.findAll);
 
 app.get('/users/:id', users.findById);
 
+app.post('/users', users.addUser);
+
+app.delete('/users/:id', users.deleteUser);
+
+app.put('/users/:id', users.updateUser);
+
 app.listen(3000);
   
 console.log('Server runnning on port 3000');
