@@ -7,6 +7,12 @@ Technologies Used :
 2 ) Express Web Framework for Node.js
 3 ) MongoDB
 
+Routes : /users/:id GET
+         /users/ POST
+         /users/:id PUT
+         /users/:id DELETE
+         /users/ GET
+
 Reference : AN Awesome Article Here
 
 http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/
